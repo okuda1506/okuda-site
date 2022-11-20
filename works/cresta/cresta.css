@@ -1,0 +1,508 @@
+@charset "UTF-8" ;
+/* 共通部分
+------------------------------ */
+html{
+  font-size: 100%;
+}
+
+body{
+  margin: 0;
+}
+
+h1{
+  font-family: "Roboto", sans-serif;
+}
+
+h2{
+  font-family: "Roboto", sans-serif;
+}
+
+h3{
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+p{
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+a{
+  text-decoration: none;
+  font-family: "Roboto"
+}
+
+img{
+  max-width: 100%;
+}
+
+h1{
+  font-size: 26px;
+  color: #FFFFFF;
+}
+
+.wrapper1{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+.wrapper2{
+  max-width: 1030px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+  padding: 0 4%;
+}
+
+.menu-title{
+  text-align: center;
+  font-size: 36px;
+}
+
+.sub-title{
+  text-align: left;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.menu-text{
+  text-align: justify;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+/* HEADER
+------------------------------ */
+.main-nav{
+  display: flex;
+  font-size: 26px;
+}
+
+.main-nav li{
+  list-style: none;
+  margin-left: 50px;
+}
+
+.main-nav a{
+  color: #FFFFFF;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1B1310;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  border-width: 2px;
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburger-menu{
+  display: none;
+}
+
+.big-bg{
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url(img/fv-bgi@2x.jpg);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1{
+  font-size: 50px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 35px 42px;
+}
+
+/* ABOUT */
+.about{
+  margin-top: 100px;
+}
+
+#About{
+  padding-top: 100px;
+}
+
+.about .menu-title{
+  margin-bottom: 72px;
+}
+
+.about .sub-title{
+  margin-bottom: 42px;
+}
+
+/* SERVICE */
+#Service{
+  padding-top: 100px;
+}
+
+.service-info1{
+  padding-left: 70px;
+} 
+
+.service-info2{
+  padding-right: 70px;
+} 
+
+.service .menu-title{
+  margin-bottom: 70px;
+}
+
+.service .sub-title{
+  margin-bottom: 42px;
+}
+.service-container{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+/* NEWS */
+#News{
+  padding-top: 100px;
+}
+
+.news .menu-title{
+  margin-bottom: 70px;
+}
+
+.news-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-item{
+  max-width: 320px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px 1px;
+}
+
+#center-item{
+  margin-right: 15px ;
+    margin-left: 15px ;
+}
+
+.news img{
+  height: 200px;
+}
+
+.news-text{
+  font-size: 13px;
+  font-family: "Hiragino Kaku Gothic ProN";
+  text-align: left;
+  margin: 0;
+  padding-left: 34px;
+  padding-right: 32px;
+  padding-top: 26px;
+  padding-bottom: 25px;
+}
+
+/* お問い合わせ */
+#Contact{
+  padding-top: 100px;
+}
+
+.question{
+  width: 700px;
+}
+.question .title{
+  font-size: 24px;
+  text-align: center;
+  font-family: "Noto Sans CJK JP";
+}
+
+.question div{
+  margin-bottom: 22px;
+}
+
+label{
+  font-size: 16px;
+  font-family: "Hiragino Kaku Gothic ProN";
+  display: block;
+}
+
+input[type="text"], input[type="email"], textarea{
+  border: 1px #141414 solid;
+  font-size: 1rem;
+}
+
+input[type="text"],  input[type="email"] {
+  width: 100%;
+  max-width: 700px;
+}
+
+textarea{
+  resize: none;
+  width: 100%;
+  max-width: 700px;
+  height: 11rem;
+}
+
+.submit{
+  margin-top: 50px;
+  text-align: center;
+}
+
+input[type="submit"]{
+  width: 235px;
+  height: 59px;
+  cursor: pointer;
+  color: #FFFFFF;
+  background: #141414;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 100px;
+  padding: 16px 97px;
+  border-width: 1px;
+  box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px 1px;
+}
+
+/* FOOTER
+------------------------------ */
+footer{
+  background: #1B1310;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer p{
+  color: #FFFFFF;
+  margin: 0;
+  font-family: "Robot";
+}
+
+footer small{
+  font-size: 14px;
+}
+
+/* モバイル版
+------------------------------ */
+@media (max-width: 770px){
+  .wrapper1{
+    max-width: 345px;
+    margin: 0 auto;
+  }
+  
+  .wrapper2{
+    max-width: 345px;
+    margin: 0 auto;
+  }
+
+  header{
+    border-width: 1px;
+  }
+  
+    /* HEADER
+  ------------------------------ */
+  .main-nav{
+    display: none;
+  }
+
+  /* ハンバーガーメニュー */
+  .hamburger-menu{
+    display: flex ;
+  }
+
+  .menu-btn {
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+  }
+
+  .menu-btn span,
+  .menu-btn span:before,
+  .menu-btn span:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 25px;
+    border-radius: 1px;
+    background-color: #ffffff;
+    position: absolute;
+  }
+
+  .menu-btn span:before {
+    bottom: 8px;
+  }
+
+  .menu-btn span:after {
+    top: 8px;
+  }
+  
+  #menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+  }
+
+  #menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+
+  #menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+
+  #menu-btn-check {
+    display: none;
+  }
+
+  /* ハンバーガーメニュー詳細 */
+  .menu-content {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 80;
+  }
+
+  .menu-content ul {
+      margin: 212px auto;
+      padding: 0;
+  }
+
+  .menu-content ul li {
+      list-style: none;
+      margin: auto;
+  }
+
+  .menu-content ul li a {
+      font-family: "Roboto";
+      display: block;
+      width: 100%;
+      font-size: 16px;
+      box-sizing: border-box;
+      color:#ffffff;
+      text-decoration: none;
+      text-align: center;
+      padding-bottom: 50px ;
+      position: relative;
+  }
+  
+  .menu-content ul li a::before {
+      content: "";
+      width: 7px;
+      height: 7px;
+      position: absolute;
+      right: 11px;
+      top: 16px;
+  }
+
+  .menu-content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 100%;/*leftの値を変更してメニューを画面外へ*/
+    z-index: 80;
+    background-color: #1B1310;
+    transition: all 0.5s;/*アニメーション設定*/  
+  }
+
+  #menu-btn-check:checked ~ .menu-content {
+    left: 0;/*メニューを画面内へ*/
+  }
+
+  /*HEADER続き*/  
+  .title h1{
+    font-size: 30px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 30px 40px;
+  }
+
+  /* ABOUT */
+  .about{
+    margin-top: 100px;
+  }
+
+  .about .sub-title{
+    margin-bottom: 31px;
+    font-size: 20px;
+  }
+  
+  /* SERVICE */
+  .service{
+    margin-top: 150px;
+  }
+  .service-info1{
+    padding-left: 0;
+  } 
+  
+  .service-info2{
+    padding-right: 0;
+  } 
+  
+  .service .sub-title{
+    margin-top: 0;
+    margin-bottom: 31px;
+    font-size: 20px;
+  }
+  
+  .service-container{
+    flex-direction: column;
+  }
+
+  .service img{
+    height: 150px;
+    order: 2;
+  }
+  
+  .service-info1{
+    order: 1;
+  }
+
+  .menu-text{
+    margin-bottom: 40px;
+  }
+
+  /* NEWS */
+  .news{
+    margin-top: 150px;
+    width: 320px;
+  }
+
+  .news-container{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container-item{
+    margin-bottom: 50px;
+  }
+
+  #center-item{
+    margin-right: 0 ;
+    margin-left: 0 ;
+  }
+  /* QUESTION */
+  .question{
+    margin-top: 102px;
+  }
+
+  .submit{
+    margin-bottom: 50px !important; 
+  }
+
+  /* FOOTER */
+  footer{
+    padding: 18px 0;
+  }
+}

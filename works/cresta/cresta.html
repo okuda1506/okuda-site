@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Takuya.design</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cresta.css">
+</head>
+<body>
+  <header>
+    <div class="info wrapper1">
+      <a href="#"><h1>Takuya Design.</h1></a>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="#About">About</a></li>
+          <li><a href="#Service">Service</a></li>
+          <li><a href="#News">News</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+        <div class="hamburger-menu">
+          <input type="checkbox" id="menu-btn-check">
+          <label for="menu-btn-check" class="menu-btn"><span></span></label>
+          <!--ここからメニュー-->
+        <div class="menu-content">
+          <ul>
+              <li>
+                  <a href="#About">About</a>
+              </li>
+              <li>
+                  <a href="#Service">Service</a>
+              </li>
+              <li>
+                  <a href="#News">News</a>
+              </li>
+              <li>
+                  <a href="#Contact">Contact</a>
+              </li>
+          </ul>
+      </div>
+      <!--ここまでメニュー-->
+      </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="big-bg">
+    <div class="title wrapper1">
+      <h1>Takuya Design.</h1>
+    </div>
+  </div>
+  <div class="about wrapper2">
+    <h2 class="menu-title" id="About">About</h2>
+    <div class="about-info">
+      <h3 class="sub-title">ミニマルで<br>洗練されたデザインを。</h3>
+      <p class="menu-text">近年、ミニマルなデザインが流行しています。そこで弊社では、クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実現させることで解決のサポートを致します。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの展開等しっかりとヒアリングを行った上でご提案させて頂きます。</p>
+    </div>
+  </div>
+
+  <div class="service wrapper2">
+    <h2 class="menu-title" id="Service">Service</h2>
+    <div class="service-container">
+      <img src="img/service-image@2x.jpg">
+      <div class="service-info1">
+        <h3 class="sub-title">リリーズ時のサポートで<br>サービスのブランディングを</h3>
+        <p class="menu-text">弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。</p>
+      </div>
+    </div>
+    <div class="service-container">
+      <div class="service-info2">
+        <h3 class="sub-title">リリース後のサポートで<br>効果を最大化させる</h3>
+        <p class="menu-text">弊社では、リリース後もサポートさせて頂きます。サービスはリリース後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。</p>
+      </div>
+      <img src="img/service-image02@2x.jpg">
+    </div>
+  </div>
+
+  <div class="news wrapper2">
+    <h2 class="menu-title" id="News">News</h2>
+    <div class="news-container">
+      <div class="container-item">
+        <img src="img/card-image1@2x.jpg">
+        <p class="news-text">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+      </div>
+      <div class="container-item" id="center-item">
+        <img src="img/card-image2@2x.jpg">
+        <p class="news-text">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+      </div>
+      <div class="container-item">
+        <img src="img/card-image3@2x.jpg">
+        <p class="news-text">新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="question wrapper2">
+    <h2 class="title" id="Contact">お問い合わせ</h2>
+    <form action="#">
+      <div>
+        <label for="name">担当者名</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div>
+        <label for="tel">電話番号</label>
+        <input type="text" id="tel" name="tel">
+      </div>
+      <div>
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div>
+        <label for="name">お問い合わせ内容</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+
+      <div class="submit">
+        <input type="submit" class="button" value="送信">
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <div class="wrapper">
+      <p><small>&copy;Takuya.design all rights reserved</small></p>
+    </div>
+  </footer>
+</body>
+</html>
